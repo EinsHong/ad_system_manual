@@ -1,0 +1,72 @@
+site_name: 통합 시스템 메뉴얼
+site_description: 통합 시스템 사용 메뉴얼
+# 배포 후 본인 GitHub 주소로 바꿔주세요 (예: https://<계정>.github.io/<저장소명>/)
+# site_url: https://example.github.io/manual/
+docs_dir: docs
+use_directory_urls: true
+
+theme:
+  name: material
+  language: ko
+  custom_dir: overrides
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/weather-night
+        name: 다크 모드로 전환
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: 라이트 모드로 전환
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - attr_list
+  - def_list
+  - toc:
+      permalink: true
+
+nav:
+  - 시작하기: index.md
+  - 사용자 설정:
+      - 팀 유저 등록/수정: user-settings/team-user.md
+      - 광고주 등록/수정: user-settings/advertiser.md
+      - 사용자 권한 관리: user-settings/permissions.md
+      - API 연동: user-settings/api-integration.md
+  - 부정클릭 모니터링:
+      - 모니터링 설정: fraud-click/setup.md
+      - 모니터링: fraud-click/monitoring.md
+      - IP 차단 목록: fraud-click/ip-block.md
+      - 경고창 예시: fraud-click/warning-examples.md
+      - 모니터링 항목: fraud-click/fields.md
+      - 유입경로 분석: fraud-click/traffic-analysis.md
+  - 경쟁사 모니터링:
+      - 개요: competitor/overview.md
+      - 모니터링 설정: competitor/setup.md
+      - 키워드 광고 모니터링: competitor/keyword.md
+      - 브랜드 광고 모니터링: competitor/brand.md
+  - 통합 리포트 시스템:
+      - 개요: report/overview.md
+      - 리포트 설정: report/report-setup.md
+      - 데이터 추가하기: report/add-data.md
+      - 피벗테이블: report/pivot.md
+      - 템플릿 저장 및 엑셀 업로드: report/templates-upload.md
+      - 컬럼 관리: report/columns.md
+  - 광고 대량 등록: bulk-register.md
+  - 광고 운영 시스템:
+      - 광고 운영: ad-operations/overview.md
+      - 규칙 관리: ad-operations/rules.md
