@@ -66,7 +66,8 @@ nav:
       - 피벗테이블: report/pivot.md
       - 템플릿 저장 및 엑셀 업로드: report/templates-upload.md
       - 컬럼 관리: report/columns.md
-  - 광고 대량 등록: bulk-register.md
+  - 광고 대량 등록:
+       -네이버)광고 대량등록: bulk-register.md
   - 광고 운영 시스템:
       - 광고 운영: ad-operations/overview.md
       - 규칙 관리: ad-operations/rules.md
