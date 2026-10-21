@@ -1,9 +1,10 @@
 # 광고 운영
 
 ## 운영 설정 step by step 
+1. **광고 그룹 불러오기** - 매체에서 광고 그룹 설정 후, 신규 규칙 설정하기 
+<iframe src="https://drive.google.com/file/d/1zZaMWpZXoFJj83-SKQ3ORPF71zPhcshd/preview" width="100%" height="450" allowfullscreen></iframe>
 
-<iframe src="https://drive.google.com/file/d/1zZaMWpZXoFJj83-SKQ3ORPF71zPhcshd/view?usp=sharing" width="100%" height="450" allowfullscreen></iframe>
-
+2.**추가 광고 그룹 규칙 설정하기** - 동일한 광고그룹에 신규 규칙 설정 및 수정하기 
 <iframe src="https://drive.google.com/file/d/1qZU2lqSDNNTSPQh_LZeBkK_bgOhAOrvC/preview" width="100%" height="450" allowfullscreen></iframe>
 
 ![광고 운영 화면](../assets/img/ops-overview.png)
