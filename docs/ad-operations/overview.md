@@ -1,5 +1,11 @@
 # 광고 운영
 
+## 운영 설정 step by step 
+
+<iframe src="https://drive.google.com/file/d/1zZaMWpZXoFJj83-SKQ3ORPF71zPhcshd/view?usp=sharing" width="100%" height="450" allowfullscreen></iframe>
+
+<iframe src="https://drive.google.com/file/d/1qZU2lqSDNNTSPQh_LZeBkK_bgOhAOrvC/preview" width="100%" height="450" allowfullscreen></iframe>
+
 ![광고 운영 화면](../assets/img/ops-overview.png)
 
 1. **광고 운영 탭** - 캠페인/광고그룹/광고 운영 현황 리스트를 확인하고, 각 광고 단위별 규칙 적용을 확인할 수 있습니다.
