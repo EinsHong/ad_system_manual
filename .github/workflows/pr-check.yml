@@ -1,0 +1,25 @@
+# PR마다 빌드를 돌려 깨진 링크·이미지 경로를 머지 전에 잡습니다.
+# (현재 deploy.yml은 main 푸시 때만 빌드하므로, 에이전트 PR 검증용으로 추가)
+name: Manual build check
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: mkdocs build --strict
+      - uses: actions/upload-artifact@v4
+        with:
+          name: site-preview
+          path: site
