@@ -15,7 +15,9 @@
 
 !!! warning "꼭 확인하세요"
     - 네이버 광고키 확인 불가시 : 본인의 마케터 계정의 관리자 계정에서  위의 방법으로 네이버 api 키 발급 후, 광고주 customer id  를 확인해 연동합니다. 
-    
+ ![네이버 API 연동 화면](../assets/img/mkt.png)
+![네이버 API 연동 화면](../assets/img/mkt2.png)
+   
 
 ## 기타 매체 API 연동
 
