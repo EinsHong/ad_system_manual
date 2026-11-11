@@ -15,6 +15,15 @@
 
 :   스마트스토어의 경우, 추적경유 URL을 복사해 광고 캠페인에 설정합니다.
 
+    스크립트 삽입 방법 
+    1. 자사몰 cafe 24 인 경우 : 설정 > 기본설정 >검색엔진 최적화( SEO ) > 고급설정 
+![부정클릭 모니터링 스크립트 설정 화면](../assets/img/cafe24.png)
+  
+     2. 자사몰 고도몰인 경우 :  매뉴얼 확인 /  상단 공통영역만 체크 해 스크립트 삽입 
+      링크 [ https://manual.godomall.com/data/manual_view.php?category=policy__basic___out_side_script_register ]
+      
+   
+
 !!! note
 
     네이버 GFA 캠페인 설정도 동일하게 추적경유 URL을 설정합니다.
